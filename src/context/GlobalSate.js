@@ -1,7 +1,7 @@
 import React, { createContext, useReducer } from 'react';
 
 // Import the Reducer
-import AppReducer from './AppReducer';
+import { AppReducer } from './AppReducer';
 
 
 //create the inital stste
