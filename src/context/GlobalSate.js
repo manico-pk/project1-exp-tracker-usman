@@ -6,13 +6,7 @@ import { AppReducer } from './AppReducer';
 
 //create the inital stste
 const initialState = {
-    transactions : [
-        {id:1, description: 'Income 1', transactionAmount: 100},
-        {id:2, description: 'Exense 1', transactionAmount: -100},
-        {id:3, description: 'Income 2', transactionAmount: 100},
-        {id:4, description: 'Expense 2', transactionAmount: -100},
-        {id:5, description: 'Income 3', transactionAmount: 100}
-    ]
+    transactions : [ ]
 }
 
 // Create the Global Context
